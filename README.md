@@ -1,6 +1,7 @@
 # Uber-Trip-Analysis---Power-BI
 Analyse Uber trip data using Power BI to gain insights into booking trends, revenue, and trip efficiency, helping stakeholders make data-driven decisions.
 
+# Dashboard 1: Overview Analysis
 # KPI’s
 1.	Total Bookings – How many trips were booked over a given period?
 2.	Total Booking Value – What is the total revenue generated from all bookings?
@@ -42,6 +43,44 @@ Create a grid table (matrix or table visual) to analyse key performance indicato
 - Identifying peak and off-peak booking days.
 - Understanding the impact of external factors (holidays, events, weather) on ride demand.
 - Supporting strategic planning for resource allocation and pricing adjustments.
+
+# Location Analysis
+Understanding trip locations is crucial for optimizing ride distribution, demand forecasting, and operational efficiency. This analysis focuses on:
+- Most Frequent Pickup Point
+  •	Identify the most common starting locations for trips.
+  •	Helps in optimizing driver availability and dynamic pricing strategies.
+- Most Frequent Drop-off Point
+  •	Find the most common drop-off locations.
+  •	Requires activating an inactive relationship in Power BI between Pickup Location and Drop-off Location in the data model.
+- Farthest Trip
+  •	Determine the longest trip based on distance travelled.
+  •	Useful for analysing outlier trips, long-distance demand, and fare optimization.
+- Total Bookings by Location (Top 5)
+  •	Identify the top 5 locations with the highest trip bookings.
+  •	Helps in demand forecasting and optimizing driver availability in high-traffic areas.
+- Most Preferred Vehicle for Location Pickup
+  •	Determine the most frequently booked vehicle type at each pickup location.
+  •	Supports strategic vehicle distribution based on customer preferences and location demand.
+
+# Dashboard 2: Time Analysis
+To understand trip patterns based on time, Uber needs to analyse ride demand and trends across different time intervals. This dashboard will help in optimizing operations, pricing, and driver availability.
+
+## Global Dynamic Measure (Filters All Charts)
+- A measure selector will be created for:
+  ✔ Total Bookings
+  ✔ Total Booking Value
+  ✔ Total Trip Distance
+This dynamic measure will update all visuals based on user selection.
+### Visualizations:
+By Pickup Time (10-Minute Intervals) - Area Chart
+•	Groups trip bookings into 10-minute intervals throughout the day.
+•	Helps in identifying peak and off-peak demand periods.
+By Day Name - Line Chart
+•	Shows booking trends across Monday to Sunday.
+•	Useful for analysing weekday vs. weekend demand.
+
+  
+
 
 
 
