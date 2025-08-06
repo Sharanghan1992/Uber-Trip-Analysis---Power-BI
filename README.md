@@ -72,12 +72,12 @@ To understand trip patterns based on time, Uber needs to analyse ride demand and
   ✔ Total Trip Distance
 This dynamic measure will update all visuals based on user selection.
 ### Visualizations:
-By Pickup Time (10-Minute Intervals) - Area Chart
-•	Groups trip bookings into 10-minute intervals throughout the day.
-•	Helps in identifying peak and off-peak demand periods.
-By Day Name - Line Chart
-•	Shows booking trends across Monday to Sunday.
-•	Useful for analysing weekday vs. weekend demand.
+- By Pickup Time (10-Minute Intervals) - Area Chart
+  •	Groups trip bookings into 10-minute intervals throughout the day.
+  •	Helps in identifying peak and off-peak demand periods.
+- By Day Name - Line Chart
+  •	Shows booking trends across Monday to Sunday.
+  •	Useful for analysing weekday vs. weekend demand.
 
   
 
